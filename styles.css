@@ -22,6 +22,13 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
 .site-header nav { display: flex; gap: 25px; font-size: 13px; }
 .site-header nav a { color: #42464b; }
 .site-header nav a:hover { color: var(--accent); text-decoration: none; }
+.language-switch { display: inline-flex; align-items: center; gap: 7px; white-space: nowrap; }
+.language-switch > span { color: var(--light); }
+.site-header nav .language-switch a[aria-current="page"] { color: var(--accent); font-weight: 700; }
+.language-switch a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 2px; }
+html[lang="zh-CN"] body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; }
+html[lang="zh-CN"] .site-name, html[lang="zh-CN"] .intro-copy h1, html[lang="zh-CN"] .section h2, html[lang="zh-CN"] .education-item h3, html[lang="zh-CN"] .research-list h3, html[lang="zh-CN"] .experience-item h3 { font-family: inherit; }
+html[lang="zh-CN"] .bio { line-height: 1.85; }
 
 .page { width: min(1040px, calc(100% - 40px)); margin: 0 auto; }
 .intro { display: grid; grid-template-columns: 164px minmax(0, 1fr); gap: 42px; align-items: start; padding: 64px 0 54px; border-bottom: 1px solid var(--line); }

@@ -6,7 +6,8 @@ This is a static academic website for GitHub Pages. It does not require a build 
 
 ## Updating the website
 
-- Edit `index.html` to update the biography, education, publications, or research experience.
+- Edit `index.html` (English) and `zh.html` (Chinese) to update the biography, education, publications, or research projects.
+- The header language switch links both pages and keeps the current section via `language-switch.js`.
 - Edit `styles.css` to update the presentation.
 - Replace `haotian-tan.jpg` to update the portrait.
 - Replace `Haotian_Tan_CV_CN.pdf` to update the downloadable Chinese CV.
