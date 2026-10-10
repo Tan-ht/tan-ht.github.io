@@ -10,7 +10,6 @@ This is a static academic website for GitHub Pages. It does not require a build 
 - The header language switch links both pages and keeps the current section via `language-switch.js`.
 - Edit `styles.css` to update the presentation.
 - Replace `haotian-tan.jpg` to update the portrait.
-- Replace `Haotian_Tan_CV_CN.pdf` to update the downloadable Chinese CV.
 - Keep `.nojekyll` at the repository root.
 
 Publish from **Settings → Pages → Deploy from a branch → main → / (root)**.
